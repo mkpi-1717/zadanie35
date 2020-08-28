@@ -1,7 +1,8 @@
-let n = 201;
+let n = 134;
 
-function licz(n){
-    if (n > 99 && n < 201){
+function myFun(a){
+    let result;
+    if (a > 99 && a < 201){
     result =  "Liczba znajduje się w przedziale";
     } else {
     result = "Liczba nie znajduje się w przedziale";
@@ -9,4 +10,4 @@ function licz(n){
     return result;
 }
 
-console.log(licz(n));
+console.log(myFun(n));
